@@ -10,7 +10,7 @@ exports.web = {
     }
   },
   specific: {
-    repositoryUrl: 'git@github.com:diffcunha/nscaledemo-rkt.git',
+    repositoryUrl: 'git@github.com:nearform/nscaledemoweb.git',
     processBuild: 'npm install',
     execute: {
       args: '-p 8000:8000 -d',
